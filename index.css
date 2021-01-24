@@ -1,0 +1,165 @@
+html {
+  background-color: aliceblue;
+  animation: fadeIn 2s ease;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* background */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  margin: auto;
+  height: 937px;
+  background-color: #7395a2;
+  background-size: cover;
+  background-image: url('" + bgImg + "');
+}
+
+.allContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 5% auto;
+}
+
+/* clock */
+.js-clock {
+  text-align: center;
+  font-size: 85px;
+  color: azure;
+  margin-top: -100px;
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.651),
+    0px 3px 30px rgba(255, 255, 255, 0.795), 2px 2px 2.5px rgba(0, 0, 0, 0.651);
+}
+
+/* input setting old style*/
+input::-ms-input-placeholder {
+  color: azure;
+}
+input::-webkit-input-placeholder {
+  color: azure;
+}
+input::-moz-placeholder {
+  color: azure;
+}
+input:focus::-ms-input-placeholder {
+  color: transparent;
+  text-shadow: none;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+  text-shadow: none;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+  text-shadow: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+/* Name part*/
+
+.nameContainer {
+  margin-top: -100px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  height: 7.5vh;
+}
+
+.form,
+.greetings {
+  display: none;
+  text-align: center;
+  line-height: 7.5vh;
+  color: azure;
+  font-size: 35px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.651);
+}
+
+.showing {
+  display: block;
+}
+
+.nameHolder {
+  text-align: center;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: azure;
+  background-color: Transparent;
+  color: aliceblue;
+  font-size: 30px;
+  width: 317px;
+  text-shadow: 0px 3px 30px rgba(255, 255, 255, 0.795),
+    3px 3px 4px rgba(0, 0, 0, 0.651);
+}
+
+/* toDo part*/
+.toDo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toDoHolder {
+  text-align: center;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: azure;
+  background-color: Transparent;
+  color: aliceblue;
+  font-size: 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.651);
+}
+
+ul {
+  margin-top: 30px;
+  list-style: none;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.651);
+}
+
+li {
+  font-size: 17px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+span {
+  margin-left: 5px;
+}
+button {
+  margin-right: -5px;
+  border: 0;
+  background-color: Transparent;
+}
+
+.toDoList {
+  margin-left: -50px;
+  font-size: 15px;
+}
+
+/* weather */
+
+.weather {
+  position: absolute;
+  padding: 14px;
+  color: aliceblue;
+  font-size: 20px;
+}

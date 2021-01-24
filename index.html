@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Something</title>
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="allContainer">
+      <div class="js-clock">
+        <h2>00:00</h2>
+      </div>
+      <div class="nameContainer">
+        <div class="nameBox">
+          <form class="js-form form">
+            <input
+              type="text"
+              class="nameHolder"
+              placeholder="What is your name?"
+            />
+          </form>
+          <h4 class="js-greetings greetings"></h4>
+        </div>
+      </div>
+      <div class="toDo">
+        <form class="js-toDoForm">
+          <input
+            type="text"
+            class="toDoHolder"
+            placeholder="Check your Tasks!"
+          />
+        </form>
+        <div class="toDoList">
+          <ul class="js-pendingList">
+            <h2>📢 PENDING</h2>
+          </ul>
+          <ul class="js-finishedList">
+            <h2>🔔 FINISHED</h2>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <span class="js-weather weather"></span>
+    <script src="gretting.js"></script>
+    <script src="clock.js"></script>
+    <script src="todo.js"></script>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+  </body>
+</html>
