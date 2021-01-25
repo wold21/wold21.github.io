@@ -19,9 +19,10 @@ html {
 body {
   font-family: sans-serif;
   margin: auto;
-  height: auto;
+/* height: auto; */
   background-color: #7395a2;
   background-size: cover;
+  background-position: cennter;
   background-image: url('" + bgImg + "');
 }
 
