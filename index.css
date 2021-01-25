@@ -1,6 +1,9 @@
 html {
   background-color: aliceblue;
   animation: fadeIn 2s ease;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 * {
   box-sizing: border-box;
@@ -18,10 +21,12 @@ html {
 
 body {
   font-family: sans-serif;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-position: center;
+  background-size: conver;
   background-color: #7395a2;
-  background-size: cover;
-  background-position: cennter;
   background-image: url('" + bgImg + "');
 }
 
