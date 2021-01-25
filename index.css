@@ -19,7 +19,7 @@ html {
 body {
   font-family: sans-serif;
   margin: auto;
-  height: 937px;
+  height: auto;
   background-color: #7395a2;
   background-size: cover;
   background-image: url('" + bgImg + "');
